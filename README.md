@@ -28,7 +28,7 @@
 
 核心代码
 ==============================
-主界面窗体选课信息
+创建窗体
 ===================
 package main;
 
@@ -75,6 +75,8 @@ public class CourseF extends JFrame {
 	/**
 	 * Create the frame.
 	 */
+	学生选课,学生退课
+	
 	public CourseF() {
 		setTitle("学生选课系统");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
