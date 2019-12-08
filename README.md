@@ -30,25 +30,7 @@
 ==============================
 主界面窗体选课信息
 ===================
-package main;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JTextField;
-import javax.swing.JComboBox;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.awt.event.ActionEvent;
-import javax.swing.DefaultComboBoxModel;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 
 public class CourseF extends JFrame {
 
@@ -75,6 +57,7 @@ public class CourseF extends JFrame {
 	/**
 	 * Create the frame.
 	 */
+学生选课与退课系统
 	public CourseF() {
 		setTitle("学生选课系统");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -173,19 +156,7 @@ public class CourseF extends JFrame {
 
 跳转页面当前选课信息
 ==============================
-package main;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
 
 public class CourseCx extends JFrame {
 
